@@ -3,7 +3,8 @@
 ###  線上預覽
 [點擊此處查看作品]([你的Vercel網址](https://my-accounting-app-three.vercel.app/))
 <img width="1919" height="955" alt="image" src="https://github.com/user-attachments/assets/bd4b5133-e5fb-4fa1-91a4-6b2b243dcfc7" />
-<img width="1918" height="951" alt="image" src="https://github.com/user-attachments/assets/2554d557-c124-4198-ad24-96fa034ec28e" />
+<img width="1918" height="948" alt="image" src="https://github.com/user-attachments/assets/ce914813-e9c7-4044-b1fb-5e6c5293cd87" />
+
 
 ###  核心功能
 - **安全登入**：使用 Firebase Auth 確保使用者資料的私密性。
