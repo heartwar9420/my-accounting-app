@@ -116,8 +116,8 @@ export function useTransactions() {
     // 當使用者離開這個頁面時，這行會主動「斷開連線」。
     return () => unsubscribe();
 
-    // 最後這個 [] 括號代表：這個感應器只在「剛進入這個頁面時」裝上去一次就好
-  }, []);
+    // 加上isLoggedIn 代表 當 isLoggedIn 每變動一次(登出/登入) 就會執行一次
+  }, [isLoggedIn]);
 
   // 刪除功能
   const deleteTransaction = async (id: string) => {
